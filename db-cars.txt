@@ -1,0 +1,16 @@
+cars
+
+id : NUMBER - INT - PRIMARY_KEY - NOTNULL - AUTO_INCREMENT - UNIQUE
+brand: STRING - VARCHAR(20) - NOTNULL - INDEX
+model: STRING - VARCHAR(75) - NOTNULL - INDEX
+serial_number: NUMBER - VARCHAR(75) - NOTNULL - UNIQUE
+production_year: DATE - YEAR - NULL - INDEX
+mileage: NUMBER - FLOAT(9,3) - NULL
+fuel_type: STRING - VARCHAR(20) - NOTNULL
+transmission_type: STRING - VARCHAR(15) - NULL
+original_price: NUMBER - MEDIUMINT - NULL 
+current_value: NUMBER - MEDIUMINT - NOTNULL
+ammount_of_previous_owners: NUMBER - TINYINT - NULL
+current_owner: STRING - VARCHAR(50) - NULL
+condition: STRING - VARCHAR(25) - NULL
+license_plate: STRING - VARCHAR(10)
